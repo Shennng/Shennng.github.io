@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: '68570f351a151a852cc3'                            #生成的clientID
   clientSecret: '87c12bf146d6d6805af65b57293c1be1cd4f1c62'    #生成的clientSecret
-  repo: 'Shengyan_Coder.github.io'    #仓库名称
-  owner: 'Shengyan_Coder'    #github用户名
-  admin: ['Shengyan_Coder']
+  repo: 'Shengyan-Coder.github.io'    #仓库名称
+  owner: 'Shengyan-Coder'    #github用户名
+  admin: ['Shengyan-Coder']
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
   id: 'window.location.pathname'
 
