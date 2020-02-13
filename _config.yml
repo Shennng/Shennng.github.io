@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: 960064995@qq.com
 description: "所有美好的东西都是免费的，比如阳光、空气和水。"
 keyword: "BY, BY Blog, 胜言的博客, shengyan, 胜言, python, C"
-url: "http://shengyan-coder.github.io"          # your host, for absolute URL
+url: "shengyan-coder.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Shengyan-Coder/Shengyan-Coder.github.io.git" # you code repository
 
@@ -62,12 +62,13 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 68570f351a151a852cc3                            #生成的clientID
-  clientSecret: 87c12bf146d6d6805af65b57293c1be1cd4f1c62    #生成的clientSecret
-  repo: shengyan_coder.github.io    #仓库名称
-  owner: Shengyan_Coder    #github用户名
-  admin: Shengyan_Coder
+  clientID: '68570f351a151a852cc3'                            #生成的clientID
+  clientSecret: '87c12bf146d6d6805af65b57293c1be1cd4f1c62'    #生成的clientSecret
+  repo: 'Shengyan_Coder.github.io'    #仓库名称
+  owner: 'Shengyan_Coder'    #github用户名
+  admin: ['Shengyan_Coder']
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  id: 'window.location.pathname'
 
 
 # 统计
