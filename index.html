@@ -19,7 +19,7 @@ description: "所有美好的东西都是免费的，比如阳光、空气和水
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        由 {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 创作于  {{ post.date | date: "%Y年 %m月 %-d日" }}
     </p>
 </div>
 <hr>
